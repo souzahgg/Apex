@@ -1,17 +1,9 @@
 public class test01 {
-    public static void test01() {
-        string dayOfWeek = 'Sat';
-        if (dayOfWeek == 'Fri'){
-            system.debug('Friday drinks');
+    public static void displayNumberList(){
+        List<integer> numberList = new List<integer>();
+        for (integer i = 1; i <= 10; i++){
+            numberList.add(i);
         }
-        else if (dayOfWeek == 'Sat'){
-            system.debug('Sport day');
-        }
-        else if (dayOfWeek == 'Sun'){
-            system.debug('Family day');
-        }
-        else {
-            system.debug('Exciting work');
-        }
+        system.debug(numberList);
     }
 }
